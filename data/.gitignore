@@ -1,0 +1,18 @@
+# Ignore database files
+*.db
+
+# Ignore log files
+*.log
+
+# Ignore all files in the `tmp/` folder
+tmp/
+
+# Ignore node_modules directory (for Node.js projects)
+node_modules/
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore IDE files (VSCode, Sublime, etc.)
+.vscode/
+.idea/
