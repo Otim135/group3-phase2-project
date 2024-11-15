@@ -94,7 +94,7 @@ The following visualizations are included in this analysis:
 
 Showing movie count by genre to highlight popularity and distribution.
 
-![WhatsApp Image 2024-11-15 at 23 35 56_a4bf6892](https://github.com/user-attachments/assets/751ad0ee-de9c-4ec2-a6b9-88814c780e58)
+![WhatsApp Image 2024-11-15 at 23 47 10_89c6dacc](https://github.com/user-attachments/assets/289ce29a-1cab-48e2-876b-a7ddc90b8118)
 
 Illustrating movie trends over time.
 
@@ -107,6 +107,10 @@ Highlighting the average profit across genres.
 Visualizing the contribution of various genres to overall revenue.
 
 ![WhatsApp Image 2024-11-15 at 23 38 15_48b7082f](https://github.com/user-attachments/assets/5c45a68f-7153-4e43-bede-00e707192fb4)
+
+Movie runtime over the years and average rating.
+
+![WhatsApp Image 2024-11-15 at 23 55 22_a447d5b1](https://github.com/user-attachments/assets/c0a0a5c3-159c-42e0-920b-0a80c5500b63)
 
 ### Key Findings
 
@@ -139,6 +143,37 @@ Tableau Public for interactive visualizations: https://public.tableau.com/app/pr
 - Use Tableau Public to create additional visualizations by importing movies.csv.
 
 ## 6.0 Conclusion
+Insights on ROI by Genre: 
 
+  - Horror genre has the highest ROI.
+    
+  - Other top genres are Family, Fantansy, Mystery.
+  
+Insights on profitability by genre: 
+
+  - Top 5 most profitable genres are Animation,Family,Adventure, Action, Sci_Fi.
+    
+  - Genres that generate profits above $150 million are Animation, Family,Adventure,and Action
+
+  - Bottom 3 genres in terms of profit generation are Music, Documentary and History
+
+Insights on production budget by genre
+
+  - Most expensive genre to produce is Adventure
+
+  - Other top 5 genres to produce are Action, Animation,Fantasy and Sci-Fi
+
+  - Least expensive genre to produce is Horror
+  
 ## 7.0 Recommendation
 
+1. **Invest in High-Rated Niche Genres**: Given the high ratings in Documentary and Biography, consider producing quality films in these genres to appeal to a selective audience.
+2. **Leverage Broad-Engagement Genres**: Action and Adventure genres have strong audience engagement, as indicated by vote counts, suggesting they are safe for larger audience appeal.
+3. **Explore Successful Genre Combinations**: Hybrid genres like Action-Comedy could attract a wide range of viewers, combining popular genres in a single film.
+
+### Insights and Evaluation
+
+1. **Popular Genres**: Genres like Drama, Comedy, and Action are the most common, indicating strong general audience engagement.
+2. **High-Rated Genres**: Genres such as Documentary and Biography have higher ratings, suggesting a preference for quality in these categories.
+3. **Rising Genre Trends**: Genres like Science Fiction and Thriller show increasing ratings over time, suggesting growing audience interest.
+4. **Successful Genre Combinations**: Action-Comedy and Drama-Thriller combinations show high ratings, indicating successful blending of audience-favorite themes.
