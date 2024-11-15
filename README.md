@@ -26,18 +26,38 @@ We will see how analyzing financial data helps studios understand how budget siz
 
 Our analysis will focus on the following objectives:
 
-•	Identify Popular Genres: Analyze which genres tend to have higher ratings, more viewer engagement, high audience ratings, and are most profitable.
+  1.	Identify Popular Genres: Analyze which genres tend to have higher ratings, more viewer engagement, high audience ratings, and are most profitable.
 
-•	Analyze Characteristics of High-Rated Movies: Examine factors such as runtime, year of release, and genre combinations to see if they correlate with higher ratings.
+  2.	Analyze Characteristics of High-Rated Movies: Examine factors such as runtime, year of release, and genre combinations to see if they correlate with higher ratings.
 
-•	Determine Key Contributors: Identify directors, writers, and actors who have contributed to successful movies, as potential partners for the new studio.
+  3.	Determine Key Contributors: Identify directors, writers, and actors who have contributed to successful movies, as potential partners for the new studio.
 
-•	Investigate Trends Over Time: Look at how preferences in ratings, movie length, and genres have evolved over the years, highlighting trends that may be valuable for the new studio to consider.
+  4.	Investigate Trends Over Time: Look at how preferences in ratings, movie length, and genres have evolved over the years, highlighting trends that may be valuable for         the new studio to consider.
 
-•	Correlate financial performance with popularity and ratings.
+  5.	Correlate financial performance with popularity and ratings.
 
-•	Offer genre and studio strategies for maximum ROI.
+  6.	Offer genre and studio strategies for maximum ROI.
 
+## 3.0	Data Sources and Understanding
+We work with the following datasets:
+
+  •	IMDb Database: Contains movie ratings, genres, and key details.
+
+  •	TMDb Dataset: Includes popularity metrics, audience ratings, and genre encodings.
+
+  •	Budget Dataset: Provides production budgets, domestic and worldwide revenue.
+
+The datasets will be merged using movie titles and release years.
+
+Key Questions for Data Understanding:
+
+  •	What is the distribution of genres in the dataset?
+
+  •	Are there missing values in critical columns (e.g., ratings, genres, runtime)?
+
+  •	How are ratings distributed across movies?
+
+  •	What are the relationships between tables that can help us analyze contributor impact (e.g., directors, writers)?
 
 
 
