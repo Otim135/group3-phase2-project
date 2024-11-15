@@ -92,17 +92,21 @@ Regression Analysis: Modeling the relationship between production budgets and wo
 ### 5.1. Visualizations
 The following visualizations are included in this analysis:
 
-Bar Charts: Showing movie count by genre and studio to highlight popularity and distribution.
+Showing movie count by genre to highlight popularity and distribution.
 
-Line Plots: Illustrating movie trends over time.
+![WhatsApp Image 2024-11-15 at 23 35 56_a4bf6892](https://github.com/user-attachments/assets/751ad0ee-de9c-4ec2-a6b9-88814c780e58)
 
-Correlation Heatmap: Displaying relationships between key financial metrics.
+Illustrating movie trends over time.
 
-Box Plots: Highlighting the spread and outliers in production budgets across genres.
+![WhatsApp Image 2024-11-15 at 23 39 28_b46ac71c](https://github.com/user-attachments/assets/5c55cb69-4e28-4e8a-b901-679f62f09293)
 
-Tree Maps: Visualizing the contribution of various genres or studios to overall revenue.
+Highlighting the average profit across genres.
 
-Histograms: Showing the distribution of average votes to understand movie ratings.
+![WhatsApp Image 2024-11-15 at 23 36 55_643e0327](https://github.com/user-attachments/assets/9c808ad0-3c8d-4a1a-80aa-6df4c0258517)
+
+Visualizing the contribution of various genres to overall revenue.
+
+![WhatsApp Image 2024-11-15 at 23 38 15_48b7082f](https://github.com/user-attachments/assets/5c45a68f-7153-4e43-bede-00e707192fb4)
 
 ### Key Findings
 
