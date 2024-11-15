@@ -9,11 +9,11 @@ The movie-making industry includes major film studios, production companies, and
 
 Revenue in the movie industry is derived from multiple sources as below:
 
-  •	Box Office Sales – the primary revenue from ticket sales in theatres
+    •	Box Office Sales – the primary revenue from ticket sales in theatres
   
-  •	Streaming Platforms – services like Netflix
+    •	Streaming Platforms – services like Netflix
   
-  •	Home Entertainment – includes digital purchases
+    •	Home Entertainment – includes digital purchases
 
 ### 2.2. Business Objective
 The project analyzes select movie industry data, including audience preferences (IM.Db ratings) and financial performance (e.g. budgets and revenue) to make informed decisions that maximize profitability and audience satisfaction. This will also allow the company to derive actionable insights for the movie studio business.
@@ -41,28 +41,48 @@ Our analysis will focus on the following objectives:
 ## 3.0	Data Sources and Understanding
 We work with the following datasets:
 
-  •	IMDb Database: Contains movie ratings, genres, and key details.
+    •	IMDb Database: Contains movie ratings, genres, and key details.
 
-  •	TMDb Dataset: Includes popularity metrics, audience ratings, and genre encodings.
+    •	TMDb Dataset: Includes popularity metrics, audience ratings, and genre encodings.
 
-  •	Budget Dataset: Provides production budgets, domestic and worldwide revenue.
+    •	Budget Dataset: Provides production budgets, domestic and worldwide revenue.
 
 The datasets will be merged using movie titles and release years.
 
 Key Questions for Data Understanding:
 
-  •	What is the distribution of genres in the dataset?
+    •	What is the distribution of genres in the dataset?
 
-  •	Are there missing values in critical columns (e.g., ratings, genres, runtime)?
+    •	Are there missing values in critical columns (e.g., ratings, genres, runtime)?
 
-  •	How are ratings distributed across movies?
+    •	How are ratings distributed across movies?
 
-  •	What are the relationships between tables that can help us analyze contributor impact (e.g., directors, writers)?
+    •	What are the relationships between tables that can help us analyze contributor impact (e.g., directors, writers)?
 
+## 4.0	Data Preparation
+Steps:
+  1.	Back up the data to avoid accidental loss during the data cleaning.
+  
+  2.	Understanding the data by reviewing the structure, and checking for data types, and constraints in the database. We also look at formatting and key relationships between tables.
 
+  3.	We identify and remove duplicate records to reduce redundancy using methods such as DISTINCT in SQL or functions in data processing tools like Pandas (drop_duplicates()).
 
+  4.	We then identify missing data points (NULL or NaN values) and decide on how to handle them: remove, replace with default values, or use statistical methods (e.g., mean, median, mode).
+ 
+  5.	We structural errors by identifying issues with naming inconsistencies, typos, or formatting issues (e.g., Sci-Fi vs.SciFI). Therefore, standardizing naming conventions and formats.
 
-Analysis and Methods
+  6.	Removing columns or rows that are not relevant to our analysis
+
+  7.	Fix data type mismatches by ensuring each column has the correct data type (e.g., dates stored as DateTime objects, numbers stored as int or float). Then convert   types as necessary for consistency.
+
+  8.	Standardize formatting; capitalization, and number precision to uniformity (e.g., changing all entries to lowercase or uppercase).
+
+  9.	Identifying outliers using statistical methods and deciding on how to handle them: correct, sap, or remove them based on context.
+ 
+  10.	Check referential integrity by verifying that the relationship between tables is maintained (e.g., foreign keys pointing to existing primary keys).
+
+## 5.0	Modelling/ Analysis
+
 The analysis includes several statistical and visualization techniques to uncover insights:
 
 Data Cleaning: Filtering missing values and removing outliers to ensure data quality.
