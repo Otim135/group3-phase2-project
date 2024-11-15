@@ -1,5 +1,7 @@
 # MOVIES ANALYSIS
 ## 1.0	Overview
+Our company sees all the big companies creating original content and wants to join the fun. A decision has been made to create a new movie studio, but the company doesn’t know anything about creating movies. Our team has been tasked with exploring what types of films are currently doing the best at the box office. We must then translate those findings into actionable insights that the head of the company’s new movie studio can use to help decide what type of films to create.
+
 
 Analysis and Methods
 The analysis includes several statistical and visualization techniques to uncover insights:
