@@ -61,7 +61,7 @@ Key Questions for Data Understanding:
 
 ## 4.0	Data Preparation
 Steps:
-  1.	Back up the data to avoid accidental loss during the data cleaning.
+  1.	Backing up of the data to avoid accidental loss during the data cleaning.
   
   2.	Understanding the data by reviewing the structure, and checking for data types, and constraints in the database. We also look at formatting and key relationships between tables.
 
