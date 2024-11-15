@@ -1,4 +1,4 @@
-# MOVIES ANALYSIS
+# MOVIES INDUSTRY ANALYSIS
 ## 1.0	Overview
 Our company sees all the big companies creating original content and wants to join the fun. A decision has been made to create a new movie studio, but the company doesn’t know anything about creating movies. Our team has been tasked with exploring what types of films are currently doing the best at the box office. We must then translate those findings into actionable insights that the head of the company’s new movie studio can use to help decide what type of films to create.
 
@@ -30,13 +30,11 @@ Our analysis will focus on the following objectives:
 
   2.	Analyze Characteristics of High-Rated Movies: Examine factors such as runtime, year of release, and genre combinations to see if they correlate with higher ratings.
 
-  3.	Determine Key Contributors: Identify directors, writers, and actors who have contributed to successful movies, as potential partners for the new studio.
+  3.	Investigate Trends Over Time: Look at how preferences in ratings, movie length, and genres have evolved over the years, highlighting trends that may be valuable for         the new studio to consider.
 
-  4.	Investigate Trends Over Time: Look at how preferences in ratings, movie length, and genres have evolved over the years, highlighting trends that may be valuable for         the new studio to consider.
+  4.	Correlate financial performance with popularity and ratings.
 
-  5.	Correlate financial performance with popularity and ratings.
-
-  6.	Offer genre and studio strategies for maximum ROI.
+  5.	Offer genre and studio strategies for maximum ROI.
 
 ## 3.0	Data Sources and Understanding
 We work with the following datasets:
@@ -46,8 +44,6 @@ We work with the following datasets:
  - TMDb Dataset: Includes popularity metrics, audience ratings, and genre encodings.
 
  - Budget Dataset: Provides production budgets, domestic and worldwide revenue.
-
-The datasets will be merged using movie titles and release years.
 
 Key Questions for Data Understanding:
 
@@ -87,20 +83,18 @@ The analysis includes several statistical and visualization techniques to uncove
 
 Univariate Analysis: Examining the distribution of single variables, such as production budgets and gross revenue, through histograms and summary statistics.
 
+Multivariate Analysis: Combining multiple factors (budget, genre, year) to analyze financial outcomes using heatmaps, scatter plots, and regression models.
+
 Correlation Analysis: Exploring relationships between financial variables to understand associations (e.g., production budget vs. worldwide gross).
 
 Regression Analysis: Modeling the relationship between production budgets and worldwide gross to predict potential revenue.
-
-Genre and Studio Analysis: Identifying top-performing genres and studios and examining their financial impact.
-
-Multivariate Analysis: Combining multiple factors (budget, genre, year) to analyze financial outcomes using heatmaps, scatter plots, and regression models.
 
 ### 5.1. Visualizations
 The following visualizations are included in this analysis:
 
 Bar Charts: Showing movie count by genre and studio to highlight popularity and distribution.
 
-Line Plots: Illustrating trends over time in production budgets and gross revenue.
+Line Plots: Illustrating movie trends over time.
 
 Correlation Heatmap: Displaying relationships between key financial metrics.
 
@@ -118,7 +112,7 @@ Some insights uncovered during the analysis:
 
 2. Production budget has a positive correlation with worldwide gross, though other factors also play a significant role in profitability.
 
-3. Studios with high output (e.g., Warner Bros, Universal Pictures) tend to dominate in revenue, but not always in ROI, indicating varied profitability.
+3. Movies with high rating tend to dominate in revenue, but not always in ROI, indicating varied profitability.
 
 ### Pre-requisites:
 
