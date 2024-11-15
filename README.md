@@ -110,37 +110,37 @@ Tree Maps: Visualizing the contribution of various genres or studios to overall 
 
 Histograms: Showing the distribution of average votes to understand movie ratings.
 
-Key Findings
+### Key Findings
 
 Some insights uncovered during the analysis:
 
-Genres like Action and Adventure are often associated with higher budgets and revenue.
+1. Genres like Action and Adventure are often associated with higher budgets and revenue.
 
-Production budget has a positive correlation with worldwide gross, though other factors also play a significant role in profitability.
+2. Production budget has a positive correlation with worldwide gross, though other factors also play a significant role in profitability.
 
-Studios with high output (e.g., Warner Bros, Universal Pictures) tend to dominate in revenue, but not always in ROI, indicating varied profitability.
+3. Studios with high output (e.g., Warner Bros, Universal Pictures) tend to dominate in revenue, but not always in ROI, indicating varied profitability.
 
-How to Use This Project
-
-Prerequisites
+### Pre-requisites:
 
 Python libraries: pandas, matplotlib, seaborn, statsmodels
 
-Tableau Public for interactive visualizations
+Tableau Public for interactive visualizations: https://public.tableau.com/app/profile/moses.musyoki/viz/cleaned_df/Dashboard1
 
-Instructions
+### Instructions
 
-Clone this repository:
+- Clone this repository:
 
-bash
+- bash
 
-Copy code
+- Copy code
 
-git clone <repository-url>
+- git clone <[repository-url](https://github.com/Otim135/group3-phase2-project/tree/main)>
 
-Run financial_analysis.ipynb in Jupyter Notebook or any other compatible IDE.
+- Run financial_analysis.ipynb in Jupyter Notebook or any other compatible IDE.
 
-Use Tableau Public to create additional visualizations by importing movies.csv.
+- Use Tableau Public to create additional visualizations by importing movies.csv.
 
 ## 6.0 Conclusion
+
+## 7.0 Recommendation
 
