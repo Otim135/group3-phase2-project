@@ -1,25 +1,6 @@
-# group3-phase2-project
-End of Phase 2 Project for Group 3, Part Time Data Science Class
-The dataset (movies.csv) includes the following columns:
+# MOVIES ANALYSIS
+## 1.0	Overview
 
-genre_names: List of genres associated with the movie.
-title: Title of the movie.
-year: Year of release.
-domestic_gross: Revenue generated in the domestic market.
-worldwide_gross: Total revenue generated worldwide.
-foreign_gross: Revenue generated in foreign markets.
-production_budget: Estimated budget spent on the movie's production.
-profit: Calculated as worldwide_gross - production_budget.
-ROI: Return on Investment, calculated as (profit / production_budget) * 100.
-vote_average: Average user rating.
-vote_count: Number of user votes.
-Objectives
-The primary goals of this analysis are:
-
-To explore trends in financial metrics across different genres, studios, and time periods.
-To determine the relationship between budget and gross revenue.
-To identify the most successful studios and genres based on revenue, ROI, and popularity.
-To provide insights into financial factors that may predict movie success.
 Analysis and Methods
 The analysis includes several statistical and visualization techniques to uncover insights:
 
