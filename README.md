@@ -142,3 +142,5 @@ Run financial_analysis.ipynb in Jupyter Notebook or any other compatible IDE.
 
 Use Tableau Public to create additional visualizations by importing movies.csv.
 
+## 6.0 Conclusion
+
