@@ -9,11 +9,11 @@ The movie-making industry includes major film studios, production companies, and
 
 Revenue in the movie industry is derived from multiple sources as below:
 
-    •	Box Office Sales – the primary revenue from ticket sales in theatres
+- Box Office Sales – the primary revenue from ticket sales in theatres
   
-    •	Streaming Platforms – services like Netflix
+- Streaming Platforms – services like Netflix
   
-    •	Home Entertainment – includes digital purchases
+- Home Entertainment – includes digital purchases
 
 ### 2.2. Business Objective
 The project analyzes select movie industry data, including audience preferences (IM.Db ratings) and financial performance (e.g. budgets and revenue) to make informed decisions that maximize profitability and audience satisfaction. This will also allow the company to derive actionable insights for the movie studio business.
@@ -41,23 +41,23 @@ Our analysis will focus on the following objectives:
 ## 3.0	Data Sources and Understanding
 We work with the following datasets:
 
-    •	IMDb Database: Contains movie ratings, genres, and key details.
+ - IMDb Database: Contains movie ratings, genres, and key details.
 
-    •	TMDb Dataset: Includes popularity metrics, audience ratings, and genre encodings.
+ - TMDb Dataset: Includes popularity metrics, audience ratings, and genre encodings.
 
-    •	Budget Dataset: Provides production budgets, domestic and worldwide revenue.
+ - Budget Dataset: Provides production budgets, domestic and worldwide revenue.
 
 The datasets will be merged using movie titles and release years.
 
 Key Questions for Data Understanding:
 
-    •	What is the distribution of genres in the dataset?
+ - What is the distribution of genres in the dataset?
 
-    •	Are there missing values in critical columns (e.g., ratings, genres, runtime)?
+ - Are there missing values in critical columns (e.g., ratings, genres, runtime)?
 
-    •	How are ratings distributed across movies?
+ - How are ratings distributed across movies?
 
-    •	What are the relationships between tables that can help us analyze contributor impact (e.g., directors, writers)?
+ - What are the relationships between tables that can help us analyze contributor impact (e.g., directors, writers)?
 
 ## 4.0	Data Preparation
 Steps:
@@ -85,35 +85,60 @@ Steps:
 
 The analysis includes several statistical and visualization techniques to uncover insights:
 
-Data Cleaning: Filtering missing values and removing outliers to ensure data quality.
 Univariate Analysis: Examining the distribution of single variables, such as production budgets and gross revenue, through histograms and summary statistics.
+
 Correlation Analysis: Exploring relationships between financial variables to understand associations (e.g., production budget vs. worldwide gross).
+
 Regression Analysis: Modeling the relationship between production budgets and worldwide gross to predict potential revenue.
+
 Genre and Studio Analysis: Identifying top-performing genres and studios and examining their financial impact.
+
 Multivariate Analysis: Combining multiple factors (budget, genre, year) to analyze financial outcomes using heatmaps, scatter plots, and regression models.
-Visualizations
+
+### 5.1. Visualizations
 The following visualizations are included in this analysis:
 
 Bar Charts: Showing movie count by genre and studio to highlight popularity and distribution.
+
 Line Plots: Illustrating trends over time in production budgets and gross revenue.
+
 Correlation Heatmap: Displaying relationships between key financial metrics.
+
 Box Plots: Highlighting the spread and outliers in production budgets across genres.
+
 Tree Maps: Visualizing the contribution of various genres or studios to overall revenue.
+
 Histograms: Showing the distribution of average votes to understand movie ratings.
+
 Key Findings
+
 Some insights uncovered during the analysis:
 
 Genres like Action and Adventure are often associated with higher budgets and revenue.
+
 Production budget has a positive correlation with worldwide gross, though other factors also play a significant role in profitability.
+
 Studios with high output (e.g., Warner Bros, Universal Pictures) tend to dominate in revenue, but not always in ROI, indicating varied profitability.
+
 How to Use This Project
+
 Prerequisites
+
 Python libraries: pandas, matplotlib, seaborn, statsmodels
+
 Tableau Public for interactive visualizations
+
 Instructions
+
 Clone this repository:
+
 bash
+
 Copy code
+
 git clone <repository-url>
+
 Run financial_analysis.ipynb in Jupyter Notebook or any other compatible IDE.
+
 Use Tableau Public to create additional visualizations by importing movies.csv.
+
